@@ -1,5 +1,2 @@
 # Software-delivery-tools
-repo
-lololol
-work ffuufusdf
-asdafasg
+THIS IS OUR LONG LIVED BRANCH, FOR THE NEXT MAIN RELEASE OF OUR WORK
