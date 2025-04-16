@@ -35,3 +35,10 @@ steps:
     pip install pytest pytest-azurepipelines
     pytest
   displayName: 'pytest'
+- task: Software-delivery-tools@1
+  inputs:
+    azureSubscription: 'MyAzureConnection'
+    appType: 'webAppLinux'
+    appName: 'Software-delivery-tools'
+    package: '$(System.DefaultWorkingDirectory)'
+  displayName: 'Deploy to Azure App Service'
