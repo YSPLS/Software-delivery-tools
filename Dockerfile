@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copy all repo files into the container
 COPY . .
-
+RUN pip install --no-cache-dir Flask
 # Expose the port your app runs on (adjust if needed)
 EXPOSE 5000
 
