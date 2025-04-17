@@ -7,9 +7,6 @@ WORKDIR /app
 # Copy all repo files into the container
 COPY . .
 
-# Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-
 # Expose the port your app runs on (adjust if needed)
 EXPOSE 5000
 
